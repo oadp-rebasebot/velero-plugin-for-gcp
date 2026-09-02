@@ -9,7 +9,7 @@ require (
 	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
-	github.com/vmware-tanzu/velero v1.18.2-rc.2
+	github.com/vmware-tanzu/velero v1.18.3-rc.1
 	golang.org/x/oauth2 v0.36.0
 	google.golang.org/api v0.283.0
 	k8s.io/api v0.33.12
@@ -118,6 +118,6 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20260701234155-b7b4cdc9cc18
 
 exclude github.com/kcp-dev/kcp/sdk v0.0.0-00010101000000-000000000000
+replace github.com/vmware-tanzu/velero => github.com/openshift/velero oadp-1.6
