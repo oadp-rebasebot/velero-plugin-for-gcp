@@ -1,5 +1,7 @@
 approvers:
+  - akarol
   - jwmatthews
+  - PrasadJoshi12
   - sseago
   - jmontleon
   - shawn-hurley
@@ -11,6 +13,8 @@ approvers:
   - savitharaghunathan
   - joeavaikath
 reviewers:
+  - akarol
+  - PrasadJoshi12
   - sseago
   - shubham-pampattiwar
   - kaovilai
